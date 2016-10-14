@@ -1,6 +1,8 @@
 package com.example;
 
 /**
+ * Created by DeanGuo on 10/14/16.
+ *
  * 大数相加(仅限正数):
  * <p>
  * 1.反转两个字符串，便于从低位到高位相加和最高位的进位导致和的位数增加；
