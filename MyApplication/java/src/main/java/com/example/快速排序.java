@@ -3,8 +3,6 @@ package com.example;
 /**
  * Created by DeanGuo on 10/15/16.
  *
- * 快速排序:
- *
  * 1．先从数列中取出一个数作为基准数。
  *
  * 2．分区过程，将比这个数大的数全放到它的右边，小于或等于它的数全放到它的左边。
@@ -83,7 +81,7 @@ public class 快速排序 {
             data[l] = temp;
         }
 
-        // 通过基数的位置将数据分为两组继续对比,直到left=right
+        // 通过基数的位置将数据分为两组继续对比,
         quickSort(data, l , left-1);
         quickSort(data, left+1 , r);
     }
